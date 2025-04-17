@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pokemon Card Generator</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="search-container">
+            <form action="javascript:getPokeDataSearch()">
+                <input id="srch" type="text" placeholder="search">
+                <button id="subbtn"type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+        <div class="container">
+            <div id="card">
+            </div>
+            <div class="shiny-check">
+                <input type="checkbox" id="shiny">
+                <label for="shiny">Shiny</label><br>
+            </div>
+            <button id="btn">Generate</button>
+            
+        </div>
+        <!-- Script -->
+         <script src="script.js"></script>
+    </body>
+</html>
